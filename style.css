@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  background: #000;
+  color: #fff;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+header {
+  background: #111;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 3px solid red;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.8em;
+  color: red;
+  text-shadow: 0 0 10px red;
+}
+header p {
+  margin: 5px 0;
+  color: #ff5555;
+}
+nav button {
+  background: #222;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+nav button.active {
+  background: red;
+}
+#chat-container {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+footer {
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+  background: #111;
+}
+footer input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: #222;
+  color: white;
+}
+footer button {
+  padding: 10px;
+  border: none;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
